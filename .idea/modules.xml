@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/LostFilm/LostFilm.iml" filepath="$PROJECT_DIR$/LostFilm/LostFilm.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Selenium.iml" filepath="$PROJECT_DIR$/Selenium.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpreadSheet/SpreadSheet.iml" filepath="$PROJECT_DIR$/SpreadSheet/SpreadSheet.iml" />
+    </modules>
+  </component>
+</project>
