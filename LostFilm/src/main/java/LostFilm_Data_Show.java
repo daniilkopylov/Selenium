@@ -28,8 +28,7 @@ public class LostFilm_Data_Show {
         }
         List<WebElement> series = driver.findElements(By.xpath("//div[contains(@class, 't_row')]"));
         for (WebElement episode : series) {
-            LostFilm_Data_Episode ep = new LostFilm_Data_Episode(episode);
-            episodesList.add(count, ep);
+            episodesList.add(count, new LostFilm_Data_Episode(episode));
             count++;
         }
         driver.close();
