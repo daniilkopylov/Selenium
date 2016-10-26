@@ -18,6 +18,7 @@ public class LostFilm_Data_Show {
         (new Actions(driver)).keyDown(Keys.SHIFT).click(parent).keyUp(Keys.SHIFT).perform();
         ArrayList<String> tabs = new ArrayList<String>(driver.getWindowHandles());
         driver.switchTo().window(tabs.get(1));
+        URL = driver.getCurrentUrl();
         WebElement temp = driver.findElement(By.xpath("//div[@class='mid']/div"));
         title = temp.findElement(By.xpath("h1")).getText();
         String[] infoItem = temp.getText().split("\n");

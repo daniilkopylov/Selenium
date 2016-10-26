@@ -10,6 +10,12 @@ public class LostFilm_Data_Episode {
         title = parent.findElement(By.xpath("table/tbody/tr/td/div/div/nobr")).getText();
     }
 
+    public LostFilm_Data_Episode(String episode) {
+
+    }
+
+
+
     public String getEpisodeNum() {
         return episode_num;
     }
